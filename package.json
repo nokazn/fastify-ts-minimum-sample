@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "fastify": "^4.24.3"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.6.8",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "start": "node --loader @swc-node/register/esm index.ts"
+  }
+}
